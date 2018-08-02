@@ -3,9 +3,9 @@ I implement Position sensitive PreciseRoIPooling (Caffe ver.) base on https://gi
  
 After training PS-PreciseRoIPooling based light-head rcnn model for 20000 iterations, I got a not bad result.
 
-I do not have enough time making experiments on PASCAL VOC or COCO, If you get better results than PSRoi-align or PSRoi-pooling. Please let me know, thank you.
+I do not have enough time making experiments on PASCAL VOC or MSCOCO, If you get better results than PSRoi-Align or PSRoi-Pooling, please let me know, thank you.
 
-My version is Position sensitive PreciseRoIPooling with no roi coordinates gradient backward, the source code already implements PreciseRoIPooling with roi coordinates gradient backward. You can get more details from the source code and paper.
+My version is Position sensitive PreciseRoIPooling with no roi coordinates gradient backward, the source code already implements PreciseRoIPooling with it. You can get more details from the source code and paper.
 
 ![sample](https://github.com/RuiminChen/PS-PreciseRoIPooling/blob/master/1.png)
 
